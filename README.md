@@ -4,7 +4,7 @@ A reproduction of the game Block Blast in an array of NeoPixel LEDs with a ESP32
 
 
 
-\### Hardware
+\## Hardware
 
 
 
@@ -20,7 +20,7 @@ A reproduction of the game Block Blast in an array of NeoPixel LEDs with a ESP32
 
 
 
-\### Software
+\## Software
 
 
 
@@ -30,7 +30,7 @@ A reproduction of the game Block Blast in an array of NeoPixel LEDs with a ESP32
 
 
 
-\### Features
+\## Features
 
 
 
@@ -40,13 +40,11 @@ A reproduction of the game Block Blast in an array of NeoPixel LEDs with a ESP32
 
 
 
-\### Notes
+\## Notes
 
 
 
 * The LED coordinate mapping depends on the physical strip wiring direction. For shorter data wires, I have chosen to have each strip alternating direction, except for the last one. Ensure Dout connects to Din for the next strip in succession.
 * The Clear PLA top part is printed with 100% infill, higher flow rate, and using rectilinear for all layers. This makes the translucent look.
 * The Black PLA parts are optimized to avoid supports if printed on the flat side each time.
-
-
 
